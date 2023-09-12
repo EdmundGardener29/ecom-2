@@ -43,20 +43,33 @@ const Footer = () => {
                     Amamamo, Elubo <br />
                     PinCode:WJ 2709 1058
                   </address>
-                  <a className="text-white mt-3 d-block mb-1" href="tel:+233 279038909">+233 279038909</a>
-                  <a className="text-white mt-3 d-block mb-0" href="mailto">egardener11@gmail.com</a>
+                  <a
+                    className="text-white mt-3 d-block mb-1"
+                    href="tel:+233 279038909"
+                  >
+                    +233 279038909
+                  </a>
+                  <a className="text-white mt-3 d-block mb-0" href="mailto">
+                    egardener11@gmail.com
+                  </a>
                   <div className="social_icons d-flex align-items-center gap-30 mt-4">
-                    <a className="text-white" href="#">
-                      <BsLinkedin  className="fs-4"/>
+                    <a
+                      className="text-white"
+                      href="https://www.linkedin.com/in/gardener-edmund-elliot-71552b194/"
+                    >
+                      <BsLinkedin className="fs-4" />
                     </a>
-                    <a className="text-white" href="#">
+                    <a className="text-white" href="delali">
                       <BsInstagram className="fs-4" />
                     </a>
-                    <a className="text-white" href="#">
+                    <a
+                      className="text-white"
+                      href="https://github.com/EdmundGardener29"
+                    >
                       <BsGithub className="fs-4" />
                     </a>
-                    <a className="text-white" href="#">
-                      <BsYoutube  className="fs-4"/>
+                    <a className="text-white" href="@edmundgardener2735">
+                      <BsYoutube className="fs-4" />
                     </a>
                   </div>
                 </div>

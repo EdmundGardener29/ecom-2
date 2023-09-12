@@ -99,7 +99,7 @@ const Header = () => {
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
-                      <img src="images/menu.svg" />
+                      <img src="images/menu.svg" alt=""/>
                       <span className="me-5 d-inline-block">Shop Categories</span>
                     </button>
                     <ul
@@ -126,16 +126,16 @@ const Header = () => {
                 </div>
                 <div className="menu-links">
                   <div className="d-flex align-items-center gap-15">
-                    <NavLink className="text-white" to="/">
+                    <NavLink  to="/home">
                       Home
                     </NavLink>
-                    <NavLink className="text-white" to="/">
+                    <NavLink  to="/store">
                       Our Store
                     </NavLink>
-                    <NavLink className="text-white" to="/">
+                    <NavLink  to="/blogs">
                       Blogs
                     </NavLink>
-                    <NavLink className="text-white" to="/contact">
+                    <NavLink  to="/contact">
                       Contacts
                     </NavLink>
                   </div>
