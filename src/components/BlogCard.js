@@ -15,7 +15,7 @@ const BlogCard = () => {
             The goods are as well as other important information
             about the goods being shipped
           </p>
-          <Link className="button">Read More</Link>
+          <Link to='/blog/:id' className="button">Read More</Link>
         </div>
       </div>
    

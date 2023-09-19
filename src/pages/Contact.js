@@ -1,16 +1,12 @@
 import React from "react";
 import Meta from "../components/Meta";
 import BreadCrumb from "../components/BreadCrumb";
-import { AiOutlineHome } from 'react-icons/ai';
+import { AiOutlineHome } from "react-icons/ai";
 import { BiPhoneCall } from "react-icons/bi";
 import {
   AiOutlineMail,
-  AiOutlineEye,
   AiOutlineInfoCircle,
 } from "react-icons/ai";
-
-
-
 
 const Contact = () => {
   return (
@@ -78,7 +74,9 @@ const Contact = () => {
                     <ul className="ps-0">
                       <li className="mb-3 d-flex gap-15">
                         <AiOutlineHome className="fs-5" />
-                        <address className="mb-0">Hse 1 Amamamo Street,Elubo</address>
+                        <address className="mb-0">
+                          Hse 1 Amamamo Street,Elubo
+                        </address>
                       </li>
                       <li className="mb-3 d-flex gap-15">
                         <BiPhoneCall className="fs-5" />
